@@ -1,0 +1,18 @@
+{
+  "name": "xynara-real",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "description": "XYNARA REAL - Real login, real messages in D1, real WebRTC calls via Durable Objects. No dummy.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create xynara-db",
+    "db:migrate": "wrangler d1 migrations apply xynara-db --local && wrangler d1 migrations apply xynara-db --remote"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241000.0",
+    "typescript": "^5.6.2",
+    "wrangler": "^3.80.0"
+  }
+}
