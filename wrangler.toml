@@ -10,7 +10,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "xynara-db"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "4a12543d-1316-408c-80dd-4dc32fd16c98"
 migrations_dir = "migrations"
 
 [[durable_objects.bindings]]
