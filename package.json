@@ -1,9 +1,8 @@
 {
-  "name": "xynara-real",
+  "name": "xynara",
   "private": true,
   "version": "3.0.0",
   "type": "module",
-  "description": "XYNARA REAL - Real login, real messages in D1, real WebRTC calls via Durable Objects. No dummy.",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
